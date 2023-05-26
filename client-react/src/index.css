@@ -1,0 +1,96 @@
+* body { 
+  margin: 0;
+  padding: 0;
+  background-color: #ace2ff;
+  display: flex;
+  justify-content: center;
+  font-family: 'Gilroy', Arial, Helvetica, sans-serif;
+}
+
+.app {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1080px;
+  flex-direction: column;
+}
+
+.todo {
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+  border: 1px solid #c4c4c4;
+  width: 1080px;
+  height: 80px;
+  border-radius: 15px;
+  font-size: 22px;
+  font-family: 'Gilroy', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+
+.list-header {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 20px;
+  font-size: 18px;
+  font-family: 'Gilroy', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  width: 200px;
+  height: 65px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  height: 80px;
+  width: 100%;
+}
+
+.btns {
+  display: flex;
+  padding-right: 20px;  
+  gap: 10px;
+} 
+
+.input {
+  box-sizing: border-box  ;
+  display: flex;
+  font-size: 18px;
+  font-family: 'Gilroy', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  border-radius: 15px;
+  padding-left: 10px; 
+  width: 960px;
+  height: 65px;
+  border: 1px solid #c4c4c4;
+  color: #000;
+}
+
+.input-btn {
+  margin-bottom: 30px;
+  width: 1080px;
+  display: flex;
+  gap: 20px;
+}
